@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/activity_set_alarm"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context="com.beeblebroxlabs.newsunrisealarm.presentation.ui.SetAlarmActivity">
+
+  <EditText
+    android:id="@+id/alarmLabelEditText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPersonName"
+    android:text="text" />
+
+  <Button
+    android:id="@+id/rintoneButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Button" />
+
+  <Switch
+    android:id="@+id/sunriseTimeSwitch"
+    android:layout_width="368dp"
+    android:layout_height="wrap_content"
+    android:text="Switch" />
+
+  <TextView
+    android:id="@+id/sunriseTimeTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="TextView" />
+
+
+  <Switch
+    android:id="@+id/customTimeSwitch"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Switch" />
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TimePicker
+    android:id="@+id/timePicker"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:timePickerMode="spinner" />
+  </ScrollView>
+
+</LinearLayout>
